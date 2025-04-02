@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<Log>
+<DtkApiVersion>171</DtkApiVersion>
+<DtkDllVersion>130</DtkDllVersion>
+<ProductMode>Psk</ProductMode>
+<InputFormat>SOLIDWORKS</InputFormat>
+<OutputFormat>PARASOLID</OutputFormat>
+<HealingFlag>0</HealingFlag>
+<ConfigFile>C:\Program Files\Siemens\NX 12.0\ugii\dtConfig.dtk</ConfigFile>
+<FileName><![CDATA[C:\Users\kenne\OneDrive - UBC\Desktop\AAA - UBC\Rover\Science-Module\Carousel\vacuum!.SLDPRT]]></FileName>
+<FileVersion>Official version for SolidWorks 2016 </FileVersion>
+<OutPutFileName><![CDATA[C:\Users\kenne\OneDrive - UBC\Desktop\AAA - UBC\Rover\Science-Module\Carousel\vacuum!.SLDPRT.x_t]]></OutPutFileName>
+<OutPutFileSize>21162</OutPutFileSize>
+<bill_of_materials>
+<component_root><path><![CDATA[C:\Users\kenne\OneDrive - UBC\Desktop\AAA - UBC\Rover\Science-Module\Carousel\vacuum!.SLDPRT]]></path><type>Part</type><name><![CDATA[vacuum!]]></name><status>dtkNoError</status><size>88928</size><unit>Millimeters</unit><version></version></component_root>
+</bill_of_materials>
+<components_info>
+<component>
+<path><![CDATA[C:\Users\kenne\OneDrive - UBC\Desktop\AAA - UBC\Rover\Science-Module\Carousel\vacuum!.SLDPRT]]></path>
+<name><![CDATA[vacuum!]]></name>
+<meta>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[vacuum!]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[vacuum!]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[C:\Users\amuly\OneDrive\Documents\GitHub\Science-Module\Carousel\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[3/21/2025]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Friday, March 21, 2025]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Friday, March 21, 2025 3:58:23 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Friday, March 21, 2025 4:10:18 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[amuly]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Title</title><value><![CDATA[vacuum!]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>IsCPReArchEnabled</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[8]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[vacuum!]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[vacuum!]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[C:\Users\amuly\OneDrive\Documents\GitHub\Science-Module\Carousel\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[3/21/2025]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Friday, March 21, 2025]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Friday, March 21, 2025 3:58:23 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Friday, March 21, 2025 4:10:18 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[amuly]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Title</title><value><![CDATA[vacuum!]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>IsCPReArchEnabled</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[8]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+</component>
+</components_info>
+<output_files_written>
+<file><path><![CDATA[C:\Users\kenne\OneDrive - UBC\Desktop\AAA - UBC\Rover\Science-Module\Carousel\vacuum!.SLDPRT.x_t]]></path><size>21162</size></file>
+</output_files_written>
+<information>
+<info><message><![CDATA[OK Find Schema : C:\Program Files\Siemens\NX 12.0\ugii\SWschema\sch_10004.s_t]]></message><type><![CDATA[Schema]]></type></info>
+</information>
+<configuration>
+<path><![CDATA[C:\Program Files\Siemens\NX 12.0\ugii\dtConfig.dtk]]></path>
+<section>
+<name><![CDATA[XMT CONF]]></name>
+<config><parameter>WRITE_BODY_ATTRIBUTES</parameter><value>1</value></config>
+</section>
+<section>
+<name><![CDATA[TRANSFORMATION ENTITES]]></name>
+<config><parameter>KEEP_ASSEMBLY</parameter><value>1</value></config>
+<config><parameter>BODY_TO_NURBS</parameter><value>0</value></config>
+<config><parameter>EXPLOSE_GROUP</parameter><value>1</value></config>
+<config><parameter>MERGE_BODIES</parameter><value>0</value></config>
+</section>
+<section>
+<name><![CDATA[FILTRAGE DE DOMAINE]]></name>
+<config><parameter>COURBE_LIM_3D</parameter><value>0</value></config>
+<config><parameter>FILAIRE</parameter><value>0</value></config>
+<config><parameter>FDT</parameter><value>0</value></config>
+<config><parameter>FEATURES</parameter><value>1</value></config>
+<config><parameter>META_PARAMETERS</parameter><value>0</value></config>
+<config><parameter>REFERENTIEL</parameter><value>1</value></config>
+<config><parameter>MESH</parameter><value>1</value></config>
+<config><parameter>RENDER_INFOS</parameter><value>1</value></config>
+<config><parameter>MODEL_DISPLAY</parameter><value>0</value></config>
+<config><parameter>DRAW</parameter><value>0</value></config>
+<config><parameter>CONSTRUCT_SOLIDS</parameter><value>1</value></config>
+</section>
+<section>
+<name><![CDATA[MODIFICATION D'ATTRIBUT]]></name>
+<config><parameter>VISIBILITY</parameter><value>-1</value></config>
+<config><parameter>ASM_VISIBILITY</parameter><value>-1</value></config>
+<config><parameter>FDT_VISIBILITY</parameter><value>-1</value></config>
+</section>
+<section>
+<name><![CDATA[DIALOG BOX]]></name>
+<config><parameter>CHOOSE_AXIS</parameter><value>0</value></config>
+<config><parameter>CHOOSE_IN_CATALOG</parameter><value>-1</value></config>
+<config><parameter>CHOOSE_LAYER_FILTER</parameter><value>0</value></config>
+<config><parameter>CHOOSE_IN_ASSEMBLY_TREE</parameter><value>0</value></config>
+</section>
+<section>
+<name><![CDATA[SCISSION FICHIER]]></name>
+<config><parameter>PAR_SOLIDE</parameter><value>0</value></config>
+<config><parameter>PER_CATALOG</parameter><value>0</value></config>
+</section>
+</configuration>
+<Conversion>
+<Start>  19:22:56</Start>
+<End>  19:22:57</End>
+<Duration>1 sec</Duration>
+</Conversion>
+</Log>
