@@ -1,0 +1,9 @@
+2025-Nov-17 22:54:01
+Computer name:	ALLIECATCOMP
+Number of cores used in calculation:	16
+Configuration name:	Default
+Project name:	
+
+Warnings on last iteration: 
+1. A vortex crosses the pressure opening :
+	Boundary Condition : Outlet ; Inlet flow/outlet flow=0.593262
