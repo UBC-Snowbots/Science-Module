@@ -1,5 +1,5 @@
 ' ******************************************************************************
-' swxJRNL.swj - journal recorded on 11/01/25 by Tiger
+' swxJRNL.swj - journal recorded on 11/16/25 by Tiger
 ' *****************************************************************************
 Dim swApp As Object
 
@@ -11,21 +11,36 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
-swApp.ActivateDoc2 "NPK Holder Temp", False, longstatus
+swApp.ActivateDoc2 "Main NPK Assembly", False, longstatus
 Set Part = swApp.ActiveDoc
+'TIMING:  - Total time = 188ms
+'TIMING:  - Total time = 14ms
+
+' Take Snapshot
+Dim swSnapShot As SnapShot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
+
+' Take Snapshot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
+
+' Take Snapshot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
+
+' Take Snapshot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
+
+' Take Snapshot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
 Set Part = swApp.ActiveDoc
 Dim myModelView As Object
 Set myModelView = Part.ActiveView
 myModelView.FrameLeft = 0
-myModelView.FrameTop = 0
+myModelView.FrameTop = 28
 Set myModelView = Part.ActiveView
-myModelView.FrameState = swWindowState_e.swWindowMaximized
-Set myModelView = Part.ActiveView
-myModelView.FrameState = swWindowState_e.swWindowMaximized
+myModelView.FrameWidth = 1826
+myModelView.FrameHeight = 748
+' MSGBOX
+' Save changes to Main NPK Assembly?
 
-' Save As
-longstatus = Part.SaveAs3("C:\Users\16467\Desktop\Rover\Science-Module\2025\NPK Probing\NPK Holder Temp- load cell attatchment.SLDPRT", 0, 2)
-Set myModelView = Part.ActiveView
-myModelView.FrameState = swWindowState_e.swWindowMaximized
 swApp.ExitApp
 End Sub
