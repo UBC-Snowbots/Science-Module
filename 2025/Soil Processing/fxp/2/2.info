@@ -1,0 +1,63 @@
+Model: airflowtest.SLDPRT
+Project name: 
+Config name: Default
+Project path: C:\Users\aleiz\OneDrive\Documents\Science-Module\2025\Soil Processing\fxp\2\2.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 9336
+    Fluid cells: 9336
+    Solid cells: 8380
+    Fluid cells containing solids: 4604
+
+
+Geometry preparation finished: 22:53:51
+Geometry preparation time: 00:00:02
+Solver CPU time: 00:00:13
+Iterations: 43
+Travels: 1.02106
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 22:54:01
+CPU time per last iteration: 00:00:00
+CPU time left: 00:00:00
+Iterations per 1 travel: 43
+
+Goals
+    Name                                  | Unit (SI)           | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Av Static Pressure                 | pressure and stress |       101415.43 |      18.4 |            5.60 |           30.45 | On
+    GG Bulk Av Velocity                   | speed and velocity  |            3.67 |      15.7 |            0.28 |            1.77 | On
+    Maximum Velocity                      | speed and velocity  |          459.84 |       0.0 |           22.81 |           60.13 | Off
+    SG Av Static Pressure (at Inlet)      | pressure and stress |       228366.43 |      15.6 |         6117.98 |        39007.80 | On
+    SG Bulk Av Total Pressure (at Inlet)  | pressure and stress |       344737.90 |     100.0 |            4.89 |            0.00 | On
+    Mass Flow Rate (at Inlet)             | mass flow           |            0.00 |      51.2 |            0.00 |            0.00 | On
+    SG Bulk Av Velocity (at Inlet)        | speed and velocity  |          271.23 |       0.0 |           13.77 |           60.57 | Off
+    SG Av Density (at Inlet)              | density             |            2.75 |       0.0 |            0.07 |            0.48 | Off
+    SG Av Static Pressure (at Outlet)     | pressure and stress |       101352.51 |      11.0 |            0.08 |            0.77 | On
+    SG Bulk Av Total Pressure (at Outlet) | pressure and stress |       103598.91 |       7.2 |          130.10 |         1806.71 | On
+    Mass Flow Rate (at Outlet)            | mass flow           |           -0.00 |      71.8 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: Internal
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: FloXpress 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP4.1
+    Computer name: ALLIECATCOMP
+    User name: aleiz
+    Operating system: Windows 11 (or higher) (Version 10.0.26100)
+    Processors: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+    Number of cores: 16
+    Memory: 1156 MB / 7971 MB
+
