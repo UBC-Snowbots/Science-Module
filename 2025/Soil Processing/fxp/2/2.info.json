@@ -1,0 +1,177 @@
+{
+    "version": 0,
+    "model_name": "airflowtest.SLDPRT",
+    "project_name": "",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\aleiz\\OneDrive\\Documents\\Science-Module\\2025\\Soil Processing\\fxp\\2\\2.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 9336,
+        "cells_fluid": 9336,
+        "cells_solid": 8380,
+        "cells_fluid_containing_solid": 4604
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "22:53:51-0800",
+        "prepare_geometry_total_time": 2,
+        "cpu_time_solver_total": 13,
+        "iteration": 43,
+        "travel": 1.0210605889683895,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "22:54:01-0800",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 0,
+        "iterations_per_travel": 43
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Av Static Pressure",
+                "unit": "pressure and stress",
+                "value": 101415.42963234389,
+                "progress": 18.4,
+                "criteria": 5.6028937205126805,
+                "delta": 30.448161077598343,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Bulk Av Velocity",
+                "unit": "speed and velocity",
+                "value": 3.666309687008625,
+                "progress": 15.7,
+                "criteria": 0.2800460834577698,
+                "delta": 1.7738978095006268,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "Maximum Velocity",
+                "unit": "speed and velocity",
+                "value": 459.84122187096085,
+                "progress": 0.0,
+                "criteria": 22.806162796640052,
+                "delta": 60.127234747612476,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Av Static Pressure (at Inlet)",
+                "unit": "pressure and stress",
+                "value": 228366.43032311235,
+                "progress": 15.6,
+                "criteria": 6117.976009821687,
+                "delta": 39007.800631048565,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Bulk Av Total Pressure (at Inlet)",
+                "unit": "pressure and stress",
+                "value": 344737.9,
+                "progress": 100.0,
+                "criteria": 4.8886058064928255,
+                "delta": 2.3283064365386963e-10,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "Mass Flow Rate (at Inlet)",
+                "unit": "mass flow",
+                "value": 0.00032543416152443065,
+                "progress": 51.2,
+                "criteria": 1.65928554321845e-05,
+                "delta": 3.235662867215349e-05,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Bulk Av Velocity (at Inlet)",
+                "unit": "speed and velocity",
+                "value": 271.22552590273995,
+                "progress": 0.0,
+                "criteria": 13.771516169181716,
+                "delta": 60.57174029302439,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Av Density (at Inlet)",
+                "unit": "density",
+                "value": 2.750969895213507,
+                "progress": 0.0,
+                "criteria": 0.07033415570066198,
+                "delta": 0.4831859033721484,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Av Static Pressure (at Outlet)",
+                "unit": "pressure and stress",
+                "value": 101352.51294134202,
+                "progress": 11.0,
+                "criteria": 0.08473177688820543,
+                "delta": 0.7684993880393449,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Bulk Av Total Pressure (at Outlet)",
+                "unit": "pressure and stress",
+                "value": 103598.91450152727,
+                "progress": 7.2,
+                "criteria": 130.10243019205785,
+                "delta": 1806.7078020445915,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "Mass Flow Rate (at Outlet)",
+                "unit": "mass flow",
+                "value": -0.00032432723054713104,
+                "progress": 71.8,
+                "criteria": 1.6830419820618475e-05,
+                "delta": 2.3439642688836005e-05,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "FloXpress 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2025 SP4.1",
+        "computer_name": "ALLIECATCOMP",
+        "user_name": "aleiz",
+        "os": "Windows 11 (or higher) (Version 10.0.26100)",
+        "cpu": "11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz",
+        "number_of_cores": 16,
+        "memory_avail": 1156,
+        "memory_total": 7971
+    }
+}
