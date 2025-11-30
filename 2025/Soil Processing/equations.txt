@@ -1,0 +1,1 @@
+﻿"wellthickness"= 0.005
