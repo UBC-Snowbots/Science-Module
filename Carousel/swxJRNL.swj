@@ -1,5 +1,5 @@
 ' ******************************************************************************
-' swxJRNL.swj - journal recorded on 12/29/25 by Tiger
+' swxJRNL.swj - journal recorded on 11/30/25 by Tiger
 ' *****************************************************************************
 Dim swApp As Object
 
@@ -11,7 +11,7 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
-swApp.ActivateDoc2 "actuator bracket", False, longstatus
+swApp.ActivateDoc2 "FullCarouselAssem", False, longstatus
 Set Part = swApp.ActiveDoc
 Set Part = swApp.ActiveDoc
 Dim myModelView As Object
@@ -22,6 +22,13 @@ Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
+'TIMING:  - Total time = 64ms
+
+' Redraw
+Part.GraphicsRedraw2
+' MSGBOX
+' Save changes to FullCarouselAssem?
+
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 swApp.ExitApp
