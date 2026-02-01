@@ -1,5 +1,9 @@
 ' ******************************************************************************
+<<<<<<< Updated upstream
 ' swxJRNL.swj - journal recorded on 02/01/26 by Tiger
+=======
+' swxJRNL.swj - journal recorded on 01/11/26 by Tiger
+>>>>>>> Stashed changes
 ' *****************************************************************************
 Dim swApp As Object
 
@@ -11,7 +15,11 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
+<<<<<<< Updated upstream
 swApp.ActivateDoc2 "Soil_Collection_MASTER_ASSY", False, longstatus
+=======
+swApp.ActivateDoc2 "corer stem", False, longstatus
+>>>>>>> Stashed changes
 Set Part = swApp.ActiveDoc
 Set Part = swApp.ActiveDoc
 Dim myModelView As Object

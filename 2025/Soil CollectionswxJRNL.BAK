@@ -11,7 +11,11 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
+<<<<<<< Updated upstream
 swApp.ActivateDoc2 "corer stem", False, longstatus
+=======
+swApp.ActivateDoc2 "Soil_Collection_MASTER_ASSY", False, longstatus
+>>>>>>> Stashed changes
 Set Part = swApp.ActiveDoc
 Set Part = swApp.ActiveDoc
 Dim myModelView As Object
@@ -20,6 +24,13 @@ myModelView.FrameLeft = 0
 myModelView.FrameTop = 0
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
+<<<<<<< Updated upstream
+=======
+
+' Take Snapshot
+Dim swSnapShot As SnapShot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
+>>>>>>> Stashed changes
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 swApp.ExitApp
