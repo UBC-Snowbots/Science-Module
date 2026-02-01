@@ -1,0 +1,37 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 01/11/26 by Tiger
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = Application.SldWorks
+
+<<<<<<< Updated upstream
+swApp.ActivateDoc2 "corer stem", False, longstatus
+=======
+swApp.ActivateDoc2 "Soil_Collection_MASTER_ASSY", False, longstatus
+>>>>>>> Stashed changes
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+<<<<<<< Updated upstream
+=======
+
+' Take Snapshot
+Dim swSnapShot As SnapShot
+Set swSnapShot = Part.ModelViewManager.AddSnapShot("Home")
+>>>>>>> Stashed changes
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ExitApp
+End Sub
