@@ -1,0 +1,55 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 02/06/26 by Tiger
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = Application.SldWorks
+
+swApp.ActivateDoc2 "ValvePlate(changehole)", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+boolstatus = Part.Extension.SelectByID2("Cut-Extrude1", "BODYFEATURE", 0, 0, 0, False, 0, Nothing, 0)
+Part.FeatEdit
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("D2@Sketch2@ValvePlate(changehole).SLDPRT", "DIMENSION", -0.007140625697326728749, 0.001499999999999925872, -0.01065804502230619129, False, 0, Nothing, 0)
+Dim myDimension As Object
+Set myDimension = Part.Parameter("D2@Sketch2")
+myDimension.SystemValue = 0.004
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("D1@Sketch2@ValvePlate(changehole).SLDPRT", "DIMENSION", -0.0142283578709695574, 0.001499999999999999381, -0.0001322338092097537221, False, 0, Nothing, 0)
+Set myDimension = Part.Parameter("D1@Sketch2")
+myDimension.SystemValue = 0.007
+Part.ClearSelection2 True
+Part.SketchManager.InsertSketch True
+
+' Save
+Dim swErrors As Long
+Dim swWarnings As Long
+boolstatus = Part.Save3(1, swErrors, swWarnings)
+' MSGBOX
+' Triangles: 1036
+' File Size: 51884 (Bytes)
+' File Format: Binary
+' Save C:\USERS\16467\DESKTOP\ROVER\SCIENCE-MODULE\2025\NPK PROBING\FOR THE VIDEO ON FEB 8\STL FILES\VALVEPLATE.STL?
+
+
+' Save As
+longstatus = Part.SaveAs3("C:\Users\16467\Desktop\Rover\Science-Module\2025\NPK Probing\For the video on Feb 8\STL Files\ValvePlate.STL", 0, 2)
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ExitApp
+End Sub
